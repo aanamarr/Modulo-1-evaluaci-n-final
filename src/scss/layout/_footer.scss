@@ -1,0 +1,68 @@
+.footer{
+    background: $color-greyish;
+    min-height: 500px;
+
+}
+.boxbutton{
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+    
+}
+.button-footer{
+    border-radius: 50%;
+    width: 60px;
+    padding: 13px 15px;
+    border-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.414);
+
+    img{
+        padding-top: 4px;
+    }
+}
+.button-footer:hover{
+    background-color:rgba(252, 252, 251, 0.478);
+    transform: scale(1.2);
+    color: $color-green;
+    text-shadow: 1px 1px 10px rgba(99, 135, 56, 0.438);;
+    border: $color-green
+}
+
+
+.boxcategory{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.url{
+    width: 50%;
+    margin: 10px;
+    color: white;
+    padding: 20px;
+    color: white
+
+}
+.pag{
+    width: 50%;
+    margin: 10px;
+    color: white;
+    padding: 20px;
+}
+.boxcopy{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: px;
+    color: white;
+    padding: 20px;
+    line-height: 2;
+    letter-spacing: 1.2px;
+}
+.heart{
+    color: $color-green;
+}
