@@ -1,3 +1,4 @@
+//images and title
 .container3{
     border: none;
     display: flex;
@@ -7,7 +8,7 @@
     img{
         border: none;
         border-radius: 50%;
-        width: 57%;
+        width: 46%;
         margin-bottom: 10px;
         box-shadow: 0 5px 8px rgba(0, 0, 0, 0.414);
     }
@@ -17,4 +18,7 @@
     font-family: $font-main;
     font-size: 16px;
     font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 25px;
+
 }

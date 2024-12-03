@@ -1,20 +1,48 @@
+//color
 .section3{
     background-color: $color-lightgreen;
 }
 
-//tests
+//texts
 .container-title{
     font-family: $font-main;
     display: inline-block;
     text-align: center;
     padding: 26px;
+    margin-left: 30px;
     line-height: 34px;
     font-weight: bold;
 }
 .title3{
+    font-family: $font-main;
     font-size: 16px;
     color: $color-greyish;
 }
 .subtitle{
     font-size: 25px;
+}
+
+//button section3
+.container-button3{
+    display: flex;
+    justify-content: center;
+}
+.button-empezar{
+    font-family: $font-main;
+    background-color: $color-green;
+    color: $color-white;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 80px;
+    padding: 16px 32px;
+    border: 3px solid $color-green;
+    margin: 20px;
+}
+
+.button-empezar:hover{
+    background-color:rgba(252, 252, 251, 0.478);
+    transform: scale(1.2);
+    color: $color-green;
+    text-shadow: 1px 1px 10px rgba(99, 135, 56, 0.438);;
+    border: 3px solid rgba(108, 153, 53, 0.988);
 }
