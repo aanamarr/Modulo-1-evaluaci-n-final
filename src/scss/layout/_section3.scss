@@ -1,0 +1,20 @@
+.section3{
+    background-color: $color-lightgreen;
+}
+
+//tests
+.container-title{
+    font-family: $font-main;
+    display: inline-block;
+    text-align: center;
+    padding: 26px;
+    line-height: 34px;
+    font-weight: bold;
+}
+.title3{
+    font-size: 16px;
+    color: $color-greyish;
+}
+.subtitle{
+    font-size: 25px;
+}

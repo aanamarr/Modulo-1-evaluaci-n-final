@@ -33,5 +33,11 @@
     padding: 13px 38px;
     border: 3px solid $color-green;
     margin: 20px;
-
+}
+.button-comprar:hover{
+    background-color:rgba(108, 153, 53, 0.686);
+    transform: scale(1.2);
+    color: white;
+    text-shadow: 1px 1px 10px rgba(31, 44, 15, 0.73);;
+    border: 3px solid rgba(108, 153, 53, 0.988);
 }
