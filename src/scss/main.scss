@@ -1,0 +1,21 @@
+@import 'core/variables';
+@import 'core/reset';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/article';
+@import 'layout/autor';
+
+
+body{
+    background-color: beige;
+}
+.pink{
+    background-color:pink;
+    color: violet;
+    padding: 10px;
+}
+.black{
+    background-color: black;
+    color: beige;
+    padding: 10px;
+}
