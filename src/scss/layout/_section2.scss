@@ -6,6 +6,9 @@
     flex-direction: column;
     width: 100%;
     padding: 20px;
+    @media (min-width:1260px) {
+        padding: 20px 150px;
+    }
 }
 .ropa{
     font-size: 14px;
@@ -23,6 +26,11 @@
     margin-top: 13px;
     font-size: 19px;
     line-height: 30px;
+}
+.box-button-section2{
+    @media (min-width:1260px) {
+        padding:0px 120px 20px;
+    }
 }
 .button-comprar{
     background-color: transparent;

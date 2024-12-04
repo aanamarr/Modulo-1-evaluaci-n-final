@@ -4,6 +4,9 @@
     width: 16%;
     position: fixed;
     z-index: 2;
+    @media (min-width:768px) {
+        width: 60px;
+    }
 
 }
 .hamb{

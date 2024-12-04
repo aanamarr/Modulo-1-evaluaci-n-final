@@ -2,6 +2,9 @@
 .section3{
     background-color: $color-lightgreen;
     padding-bottom: 15%;
+    @media (min-width:768px){
+        padding-bottom: 0;
+    }
 }
 
 //texts
@@ -13,14 +16,31 @@
     margin-left: 30px;
     line-height: 34px;
     font-weight: bold;
+    @media (min-width:768px) {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5;
+        
+    }
+    @media (min-width: 768px) {
+        margin-bottom: -35px;
+    }
 }
 .title3{
     font-family: $font-main;
     font-size: 16px;
     color: $color-greyish;
+    @media (min-width:768px){
+        font-size: 19px;
+    }
 }
 .subtitle{
+    font-family: $font-main;
     font-size: 25px;
+    @media (min-width:768px){
+        font-size: 43px;
+
+    }
 }
 
 //button section3
